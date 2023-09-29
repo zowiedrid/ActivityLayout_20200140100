@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrameLayout">
+
+    <ImageView
+        android:scaleType="center"
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/wlpr" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/cilik_abin_mayo"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Button"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="100dp
+"
+        android:layout_height="100dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="132dp" />
+</FrameLayout>
